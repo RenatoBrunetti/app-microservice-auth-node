@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "start": "echo \"Start\" && exit 1"
+    "build": "echo \"Build\"",
+    "start": "echo \"Start\"",
+    "lint": "echo \"Lint\"",
+    "test": "echo \"Test\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^18.14.0",
+    "@types/node": "^18.14.2",
     "typescript": "^4.9.5"
   }
 }
